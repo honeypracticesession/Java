@@ -1,0 +1,9 @@
+class Sales 
+{
+	public static void main(String[] args) 
+	{
+int salesphone=3;
+
+		System.out.println(salesphone++ + ++salesphone  + ++salesphone);
+	}
+}

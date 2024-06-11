@@ -1,0 +1,16 @@
+class Sampleif 
+{
+	public static void main(String[] args) 
+	{
+		int r=2;
+        if(r==0)
+{
+    System.out.println("............");
+}
+   else
+{  
+   System.out.println("//");
+}   
+    
+	}
+}

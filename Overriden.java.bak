@@ -1,0 +1,20 @@
+class Overriden 
+{ 
+public void display()
+{
+System.out.println("Ramya ");
+}
+public void display()
+{
+System.out.println("hide ramya");
+}
+public void display()
+{
+System.out.println("display contents");
+}
+	public static void main(String[] args) 
+	{
+		Overriden o1=new Overriden();
+      o1.display();
+	}
+}

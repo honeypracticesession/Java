@@ -1,0 +1,22 @@
+/*wap to print each digit in line by line in a given number*/
+class Mam
+
+{
+public static void main(String[]args)
+{
+int n=1235;
+count=0;
+System.out.println(n);
+while(n>0)
+
+{
+
+int r=n%10;
+
+System.out.println(r);
+n=n/10;
+}
+}
+
+
+}
